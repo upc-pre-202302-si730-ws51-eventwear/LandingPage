@@ -67,14 +67,16 @@ body {
 .web_image {
     background-color: #527c7b;
     margin: auto;
-    width: 1400px;
-    height: 600px;
+    width: auto;
+    height: 700px;
     margin-bottom: 60px;
 }
 
 .clothing_img {
-    margin-left: 200px;
+    margin-left: 30px;
     margin-top: 50px;
-    width: 1000px;
-    height: 500px;
+    width: 1838px;
+    height: 620px;
+    overflow: hidden;
+
 }

@@ -132,3 +132,38 @@ body {
     margin-bottom: 80px;
 
 }
+
+
+.segment_2{
+
+    display: flex;
+}
+
+.title_segment_2{
+    font-size: 30px;
+    margin-bottom: 66px;
+}
+.info_segment_2{
+
+    width: 785px;
+    font-family: "M PLUS 1", sans-serif;
+    font-size: 20px;
+    margin-left: 230px;
+    text-align: center;
+   
+}
+
+.image_segment_2{
+
+    margin-left: 260px;
+    margin-bottom: 100px;
+
+
+}
+
+footer{
+
+    background-color: #87BB66;
+    width: auto;
+    height: 50px;
+}

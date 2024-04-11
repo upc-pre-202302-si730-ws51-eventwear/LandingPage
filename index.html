@@ -4,92 +4,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/logo.png">
     <title>Document</title>
     <link rel="stylesheet" href="styles/styles.css "> <!-- Agrega el enlace al archivo CSS externo -->
 </head>
 
 <body>
     
-    <header >
-        <div class="start"> 
-            <img class="logo" src="assets/logoEventWear_junto.jpg" alt="">
-            <button class="b_collaboration">Colaboraciones</button>
-            <button class="b_about_us">Nosotros</button>
-            <button class="b_sign_in">Iniciar sesion</button>
+    <header class="navbar-container">
+        <div class="logo">
+            <a href="#home"><img src="assets/logo.png" alt="company logo"></a>
         </div>
+        <nav class="navbar-list">
+            <ul>
+                <li><a href="#segment" class="navbar-link">Segmentos</a></li>
+                <li><a href="#about" class="navbar-link">Nosotros</a></li>
+                <li><a href="#contact" class="navbar-link">Contacto</a></li>
+                <li><a href="#collaborations" class="navbar-link">Colaboraciones</a></li>
+                <li><a href="login.html" class="navbar-link">Iniciar Sesión</a></li>
+                <li><a href="sign-up.html" class="navbar-link" id="sign-in">Crear Cuenta</a></li>
+            </ul>
+        </nav>
     </header>
-   
-    <div class="title">
-        <h1 class="web_name">EventWear</h1>
-    </div>
 
-    <div class="div_web_info">
-        <p class="web_info">
-            Tu pasaporte hacia un estilo excepcional. Descubre una forma innovadora y 
-            sostenible de vestirte para eventos especiales.        </p> 
-    </div>
-
-    <div class="web_image">
-        <img class="clothing_img" src="assets/comprar-talla-menos.jpg" alt="">
-    </div>
-    
-    <div class="web_line">
-       " "
-    </div>
-
-    <div class="segment_1">
-    
-        <div class="info_segment_1">
-
-            <h2 class="title_segment_1">Consumidor casual de moda</h3>
-
-                <p>Ofrecemos una amplia gama de prendas y accesorios de moda de alta calidad, perfectos para tus ocasiones más importantes. Desde elegantes vestidos hasta accesorios, nuestra plataforma te brinda la variedad que necesitas para destacar 
-                sin comprometer tu estilo ni tu presupuesto.
-            </p>
-
-            <button class="button_segment_1">mas informacion</button>
-
-
+    <section class="home" id = "home">
+        <div class="title">
+            <h1 class="web_name">EventWear</h1>
         </div>
+        <div class="div_web_info">
+            <p class="web_info">
+                Tu pasaporte hacia un estilo excepcional. Descubre una forma innovadora y 
+                sostenible de vestirte para eventos especiales.        </p> 
+        </div> 
+        <div class="web_image">
+            <img class="clothing_img" src="assets/comprar-talla-menos.jpg" alt="">
+        </div>       
+    </section>
 
-        <div class="image_segment_1">
-            <img src="assets/segemento1.png" alt="">
-
-        </div>
-
-    </div>
-
-    <div class="web_line">
-        " "
-     </div>
-
+    <section class="segment" id = "segment">
+        <div class="web_line">
+        
+         </div>
      
-    <div class="segment_2">
-    
-        <div class="image_segment_2">
-            <img src="assets/segemento2.png" alt="">
-
-        </div>
-
-
-
-        <div class="info_segment_2">
-
-            <h2 class="title_segment_2">Asistente a eventos</h3>
-
-                <p>Ofrecemos una experiencia de alquiler personalizada y conveniente, permitiéndote lucir espectacular sin los altos costos de la compra. Desde elegantes trajes hasta deslumbrantes accesorios, tenemos todo lo que necesitas para destacar en cualquier ocasión.
-            </p>
+         <div class="segment_1">
+         
+             <div class="info_segment_1">
+     
+                 <h2 class="title_segment_1">Consumidor casual de moda</h3>
+     
+                     <p>Ofrecemos una amplia gama de prendas y accesorios de moda de alta calidad, perfectos para tus ocasiones más importantes. Desde elegantes vestidos hasta accesorios, nuestra plataforma te brinda la variedad que necesitas para destacar 
+                     sin comprometer tu estilo ni tu presupuesto.
+                 </p>
+     
+                 <button class="button_segment_1">mas informacion</button>
+     
+     
+             </div>
+     
+             <div class="image_segment_1">
+                 <img src="assets/segemento1.png" alt="">
+     
+             </div>
+     
+         </div>
+     
+         <div class="web_line">
+             
+          </div>
+     
+          
+         <div class="segment_2">
+         
+             <div class="image_segment_2">
+                 <img src="assets/segemento2.png" alt="">
+     
+             </div>
+     
+     
+     
+             <div class="info_segment_2">
+     
+                 <h2 class="title_segment_2">Asistente a eventos</h3>
+     
+                     <p>Ofrecemos una experiencia de alquiler personalizada y conveniente, permitiéndote lucir espectacular sin los altos costos de la compra. Desde elegantes trajes hasta deslumbrantes accesorios, tenemos todo lo que necesitas para destacar en cualquier ocasión.
+                 </p>
+                 
+                 <button class="button_segment_2">mas informacion</button>
+     
+     
+             </div>
+     
+     
+         </div>
+         <div class="web_line">
             
-            <button class="button_segment_2">mas informacion</button>
+         </div>
+    </section>
 
-
-        </div>
-
-
-    </div>
-    <div class="web_line">
-        " "
-    </div>
     <section class="about" id="about">
         <div class="about-container">
             <h2 class="about-title">Acerca de nosotros</h2>
@@ -98,8 +109,8 @@
                 <p class="text-about">
                     <b>"Event Wear"</b>es una plataforma innovadora que revoluciona la forma en que las personas se visten para eventos especiales al ofrecer una alternativa sostenible al fast fashion. Conectando a usuarios que desean lucir prendas únicas y de calidad con aquellos que tienen piezas para alquilar, Event Wear promueve la reutilización y el intercambio, reduciendo así el desperdicio de moda.
                     Nuestro propósito es empoderar a los usuarios para que disfruten de la moda de manera consciente, fomentando la comunidad, la creatividad y la responsabilidad social a través de la moda sostenible. Event Wear no solo ofrece una solución práctica y elegante para eventos especiales, sino que también contribuye positivamente al medio ambiente y a la sociedad al cambiar la forma en que consumimos moda.
-                    
-                <img src="assets/integrantes.png"box-img1" alt="referencial image">
+                </p>
+                <img src="assets/integrantes.png" class ="box-img1" alt="referencial image">
             </div>
         </div>
 
@@ -129,9 +140,33 @@
         </div>
     </section>
    
-    
-    <footer>
+    <section class="colaborations" id="colaborations">
 
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <h3>EventWear</h3>
+            <div class="footer-info">
+                <p class="footer-info-items">
+                    <a href="#segment" class="footer-link">Segmentos</a>
+                    <a href="#home" class="footer-link">Inicio</a>
+                    <a href="#about" class="footer-link">Nosotros</a>
+                    <a href="#contact" class="footer-link">Contacto</a>
+                    <a href="#collaborations" class="footer-link">Colaboraciones</a>
+                </p>
+            </div>
+            <h3>Síguenos en:</h3>
+            <div class="footer-social">
+                <p class="footer-social-items">
+                    <a class="social-link">Facebook</a>
+                    <a class="social-link">Instagram</a>
+                    <a class="social-link">Twitter</a>
+                </p>
+            </div>
+            <br>
+            <p>&copy; 2024 EventWear. Todos los derechos reservados.</p> 
+        </div>
     </footer>
     
 </body>

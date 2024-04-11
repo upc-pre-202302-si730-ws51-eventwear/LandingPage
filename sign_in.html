@@ -3,66 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
 <style>
-    body
-    {
-        background-color: #C1EAF2;
-    }
-
-    .logo
-    {
-        width: 500px;
-        height: 500px;
-        margin-top: 50px;
-    }
-
-    .mainBox
-    {
-        background-color: #296900B2;
-        text-align: center;
-        border-radius: 23px;
-        margin-right: 33%;
-        margin-left: 33%;
-        margin-bottom: 150px;
-    }
-
-    .inputBox
-    {
-        background-color: #F1F1F1;
-        border-radius: 45px;
+    input[type="text"]{
         width: 80%;
-        height: 60px;
-        margin: 20px;
+       border-radius: 45px;
+        background-color: #F1F1F1;
         font-size: 32px;
         text-align: left;
-    }
-
-    .mainButtons
-    {
-        background-color: #F1F1F1;
-        border-radius: 45px;
-        width: 55%;
         height: 60px;
         margin: 20px;
-        font-size: 25px;
-        text-align: center;
     }
-
 </style>
 </head>
 
-<body>
+<body style="background-color: #C1EAF2;">
     <div style="text-align: center;">
-        <img src="assets/logo-signin.jpeg" alt="Event Wear logo"  class="logo"> 
+        <img src="assets/logo-signin.jpeg" alt="Event Wear logo" class="signin-logo"> 
     </div>
-    <div class="mainBox">
-        <input type="text" placeholder=" Nombre usuario / correo " class="inputBox">
+    <div class="signin-box">
+        <input type="text" placeholder=" Nombre usuario / correo ">
         <br>
-        <input type="text" placeholder=" Contrasena " class="inputBox">
+        <input type="text" placeholder=" Contrasena ">
         <br>
-        <button class="mainButtons">Inicia sesion</button>
+        <button class="signin-buttons">Inicia sesion</button>
         <br>
-        <button class="mainButtons" style="width: 40%;">Crear cuenta</button>
+        <button class="signin-buttons" style="width: 40%;">Crear cuenta</button>
     </div>
 </body>
 </html>

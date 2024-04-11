@@ -1,106 +1,80 @@
-
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@100..900&display=swap');
 
 body {
+    margin: 0;
+    padding: 0;
+}
 
-    margin: 0; 
-    padding: 0; 
- }
-
-.inicio{
-
+.start {
     background-color: #87BB66;
     padding: 20px;
     text-align: center;
-    display: flex; /*para que el titulo y inicio de sesion esten en un mismo parrafp*/
-    align-items: center; /*centrar*/
-
+    display: flex;
+    align-items: center;
 }
 
-.but_inicio,
-.but_nosot,
-.but_colab{
-
-    background-color:#527c7b;
+.b_collaboration,
+.b_about_us,
+.b_sign_in {
+    background-color: #527c7b;
     font-family: "M PLUS 1", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
+    font-weight: normal;
     font-style: normal;
-    color:white;
-
+    color: white;
     font-size: 15px;
-    margin-left: auto;  
-    width: 130px; 
+    margin-left: auto;
+    width: 130px;
     height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 20px;
-
 }
 
-.logo{
-
+.logo {
     margin-top: -10px;
     width: 300px;
     height: 80px;
 }
 
-.titulo{
-
+.title {
     justify-content: center;
     align-items: center;
-    display: flex; 
-
+    display: flex;
 }
 
-.nombre_web{
-
+.web_name {
     font-family: "M PLUS 1", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
+    font-weight: normal;
     font-style: normal;
     font-size: 50px;
 }
 
-.web_info{
-
+.web_info {
     font-family: "M PLUS 1", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
+    font-weight: normal;
     font-style: normal;
     font-size: 20px;
-
     margin-left: 00px;
-
 }
 
-.div_web_info{
-
-    display: flex; 
+.div_web_info {
+    display: flex;
     justify-content: center;
     margin-bottom: 60px;
-
 }
 
-.web_imagen{
-
+.web_image {
     background-color: #527c7b;
     margin: auto;
     width: 1400px;
     height: 600px;
     margin-bottom: 60px;
-
 }
 
-.ropa_img{
-
+.clothing_img {
     margin-left: 200px;
     margin-top: 50px;
     width: 1000px;
     height: 500px;
-    
-
-
-
 }

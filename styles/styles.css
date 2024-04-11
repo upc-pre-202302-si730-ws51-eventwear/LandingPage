@@ -1,59 +1,74 @@
-.about {
-    margin-bottom: 100px;
-}
-
-.about-title {
-    margin-top: 3rem;
-    font-size: 180%;
+.contact-container {
+    width: 80%;
+    margin: 0 auto;
     text-align: center;
 }
 
-.text-about {
-    font-size: 130%;
-    width: 60%;
+.contact {
+    text-align: center;
+    background-color: #87BB66;
+    color: #ffffff;
+    padding: 50px 0;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.contact-container {
+    max-width: 600px;
     margin: 0 auto;
-    text-align: justify;
 }
 
-.box-group {
-    display: flex;
-    justify-content: center;
+.contact-title {
+    margin-bottom: 30px;
+    font-size: 2em;
+    color: #ffffff;
+}
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ffffff;
 }
 
-.box-img1 {
-    margin-left: 2%;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
-    border: 2px solid transparent color(0, 0, 0, 0.5);
-    transition: border-color 0.3s;
-    width: 15%;
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    background-color: #ffffff; /* Rellenado de blanco */
+    color: #555555; /* Letras matizadas */
+    font-size: 1em;
+    transition: border-color 0.3s; /* Transición suave del color del borde */
 }
 
-@media screen and (max-width: 768px) {
-    .about-title {
-        margin-left: 0;
-        text-align: center;
-    }
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-color: #333333; /* Borde al enfocar */
+}
 
-    .box-group {
-        display: flex;
-        justify-content: center;
-        flex-direction: row; /* Alineación horizontal de los elementos */
-    }
-    
-    .box-img1 {
-        margin-left: 2%; /* Espacio a la izquierda de la imagen */
-        margin-right: 20%; /* Espacio a la derecha de la imagen */
-        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
-        border: 2px solid transparent color(0, 0, 0, 0.5);
-        transition: border-color 0.3s;
-        width: 15%;
-    }
-    
-    .text-about {
-        font-size: 130%;
-        width: 60%;
-        margin: 0 auto;
-        text-align: justify;
-    }
-    
+textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333333;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 1em;
+}
+
+button[type="submit"]:hover,
+button[type="submit"]:focus {
+    background-color: #555555;
+    color: #ffffff;
 }

@@ -8,13 +8,13 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #87BB66;
+    background-color: #C2EAF2;
 }
 
 .container{
     width: 400px;
     padding: 20px;
-    background-color: #fff;
+    background-color: #87BB66;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
@@ -34,6 +34,7 @@ body{
     justify-content: center;
     align-items: center;
     margin: auto;
+    margin-top: 20px;
 }
 .title{
     text-align: center;
@@ -83,6 +84,9 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.image-logo{
+    padding-right: 50px;
 }
 
 @media screen and (max-width: 768px) {

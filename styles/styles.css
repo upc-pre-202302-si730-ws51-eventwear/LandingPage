@@ -62,6 +62,7 @@ body {
 }
 
 .web_image {
+    text-align: center;
     background-color: #527c7b;
     margin: auto;
     width: auto;
@@ -229,9 +230,9 @@ label {
 input[type="text"],
 input[type="email"],
 textarea {
-    width: 100%;
+    width: 80%;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 30px;
     border: 1px solid #cccccc;
     background-color: #ffffff;
     color: #555555;
@@ -330,6 +331,30 @@ header .navbar-list a{
 
 header .navbar-list li a:hover{
     color: #333333;
+}
+.signin-logo{
+    width: 500px;
+    height: 500px;
+     margin-top: 50px;
+}
+
+.signin-box{
+    background-color: #296900B2;
+    text-align: center;
+    border-radius: 23px;
+    margin-right: 33%;
+    margin-left: 33%;
+    margin-bottom: 150px;
+}
+
+.signin-buttons{
+    background-color: #F1F1F1;
+    border-radius: 45px;
+    width: 55%;
+    height: 60px;
+    margin: 20px;
+    font-size: 25px;
+    text-align: center;
 }
 
 #sign-in{
